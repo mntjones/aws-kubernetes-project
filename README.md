@@ -85,4 +85,26 @@ Completing the project involves several steps:
 5. Create a CodePipeline pipeline triggered by GitHub checkins
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
+## External End Point 
+
+NAME                                                                     simple-jwt-api 
+  
+TYPE 
+LoadBalancer 
+
+CLUSTER-IP 
+10.100.91.118
+
+EXTERNAL-IP 
+ae27fb9bcc246476faccda64f05e656c-1621700796.us-west-1.elb.amazonaws.com 
+
+PORT(S) 
+80:31421/TCP
+
+AGE
+16m   
+
+SELECTOR
+app=simple-jwt-api
+
 For more detail about each of these steps, see the project lesson.
